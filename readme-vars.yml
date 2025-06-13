@@ -1,0 +1,55 @@
+---
+
+# project information
+project_name: chrome
+project_url: "https://www.google.com/chrome/"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/chrome-logo.png"
+project_blurb: "[Chrome]({{ project_url }}) is the official web browser from Google, built to be fast, secure, and customizable."
+project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Web Browser"
+project_blurb_optional_extras_enabled: false
+# supported architectures
+available_architectures:
+  - {arch: "{{ arch_x86_64 }}", tag: "latest"}
+# development version
+development_versions: false
+# container parameters
+common_param_env_vars_enabled: true
+param_container_name: "{{ project_name }}"
+param_usage_include_env: true
+param_env_vars:
+  - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London."}
+param_usage_include_vols: true
+param_volumes:
+  - {vol_path: "/config", vol_host_path: "/path/to/config", desc: "Users home directory in the container, stores local files and settings"}
+param_usage_include_ports: true
+param_ports:
+  - {external_port: "3000", internal_port: "3000", port_desc: "HTTP Chrome desktop gui must be proxied."}
+  - {external_port: "3001", internal_port: "3001", port_desc: "HTTPS Chrome desktop gui."}
+custom_params:
+  - {name: "shm-size", name_compose: "shm_size", value: "1gb", desc: "This is needed for any modern website to function like youtube."}
+# optional variables
+opt_param_usage_include_env: true
+opt_param_env_vars:
+  - {env_var: "CHROME_CLI", env_value: "https://www.linuxserver.io/", desc: "Specify one or multiple Chrome CLI flags, this string will be passed to the application in full."}
+opt_security_opt_param: true
+opt_security_opt_param_vars:
+  - {run_var: "seccomp=unconfined", compose_var: "seccomp:unconfined", desc: "For Docker Engine only, many modern gui apps need this to function on older hosts as syscalls are unknown to Docker. Chrome runs in no-sandbox test mode without it."}
+# application setup block
+app_setup_block_enabled: true
+app_setup_block: |
+  The application can be accessed at:
+
+  * https://yourhost:3001/
+
+
+  ### Security
+
+  >[!WARNING]
+  >Do not put this on the Internet if you do not know what you are doing.
+
+  By default this container has no authentication and the optional environment variables `CUSTOM_USER` and `PASSWORD` to enable basic http auth via the embedded NGINX server should only be used to locally secure the container from unwanted access on a local network. If exposing this to the Internet we recommend putting it behind a reverse proxy, such as [SWAG](https://github.com/linuxserver/docker-swag), and ensuring a secure authentication solution is in place. From the web interface a terminal can be launched and it is configured for passwordless sudo, so anyone with access to it can install and run whatever they want along with probing your local network.
+
+# changelog
+changelogs:
+  - {date: "12.06.25:", desc: "Initial release."}

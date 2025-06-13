@@ -1,0 +1,27 @@
+---
+
+# jenkins variables
+project_name: docker-chrome
+external_type: os
+release_type: stable
+release_tag: latest
+ls_branch: master
+build_armhf: false
+repo_vars:
+  - BUILD_VERSION_ARG = 'CHROME_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-chrome'
+  - CONTAINER_NAME = 'chrome'
+  - DOCKERHUB_IMAGE = 'linuxserver/chrome'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/chrome'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/chrome'
+  - DIST_IMAGE = 'ubuntu'
+  - MULTIARCH = 'false'
+  - CI = 'true'
+  - CI_WEB = 'true'
+  - CI_PORT = '3001'
+  - CI_SSL = 'true'
+  - CI_DELAY = '120'
+  - CI_DOCKERENV = 'TZ=US/Pacific'
+  - CI_AUTH = 'user:password'
+  - CI_WEBPATH = ''
