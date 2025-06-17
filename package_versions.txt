@@ -475,7 +475,7 @@ golang.org/x/text                                                             v0
 golang.org/x/text                                                             v0.24.0                                 go-module  (+2 duplicates)  
 golang.org/x/time                                                             v0.0.0-20220210224613-90d013bbcef8      go-module                   
 golang.org/x/time                                                             v0.11.0                                 go-module  (+2 duplicates)  
-google-chrome-stable                                                          137.0.7151.103-1                        deb                         
+google-chrome-stable                                                          137.0.7151.119-1                        deb                         
 google.golang.org/api                                                         v0.155.0                                go-module                   
 google.golang.org/genproto                                                    v0.0.0-20231211222908-989df2bf70f3      go-module  (+4 duplicates)  
 google.golang.org/genproto                                                    v0.0.0-20240123012728-ef4313101c80      go-module                   
