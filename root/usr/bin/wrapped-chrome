@@ -3,7 +3,7 @@
 BIN=/usr/bin/google-chrome
 
 # Cleanup
-if ! pgrep chrome > /dev/null;then
+if pgrep chrome > /dev/null;then
   rm -f $HOME/.config/google-chrome/Singleton*
 fi
 
