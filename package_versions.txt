@@ -461,7 +461,7 @@ golang.org/x/text                                                             v0
 golang.org/x/text                                                             v0.24.0                                 go-module  (+2 duplicates)  
 golang.org/x/time                                                             v0.0.0-20220210224613-90d013bbcef8      go-module                   
 golang.org/x/time                                                             v0.11.0                                 go-module  (+2 duplicates)  
-google-chrome-stable                                                          138.0.7204.157-1                        deb                         
+google-chrome-stable                                                          138.0.7204.168-1                        deb                         
 google.golang.org/api                                                         v0.160.0                                go-module                   
 google.golang.org/genproto                                                    v0.0.0-20231211222908-989df2bf70f3      go-module  (+4 duplicates)  
 google.golang.org/genproto                                                    v0.0.0-20240227224415-6ceb2ff114de      go-module                   
@@ -928,7 +928,7 @@ perl-base                                                                     5.
 perl-modules-5.36                                                             5.36.0-7+deb12u2                        deb                         
 pillow                                                                        11.3.0                                  python                      
 pinentry-curses                                                               1.2.1-1                                 deb                         
-pixelflux                                                                     1.2.9                                   python                      
+pixelflux                                                                     1.3.0                                   python                      
 polkitd                                                                       122-3                                   deb                         
 poppler-data                                                                  0.4.12-1                                deb                         
 procps                                                                        2:4.0.2-3                               deb                         
