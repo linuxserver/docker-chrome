@@ -483,7 +483,7 @@ golang.org/x/text                                                             v0
 golang.org/x/text                                                             v0.25.0                                    go-module                   
 golang.org/x/time                                                             v0.0.0-20220210224613-90d013bbcef8         go-module                   
 golang.org/x/time                                                             v0.11.0                                    go-module  (+2 duplicates)  
-google-chrome-stable                                                          139.0.7258.127-1                           deb                         
+google-chrome-stable                                                          139.0.7258.138-1                           deb                         
 google-crc32c                                                                 1.7.1                                      python                      
 google.golang.org/api                                                         v0.160.0                                   go-module                   
 google.golang.org/genproto                                                    v0.0.0-20231211222908-989df2bf70f3         go-module  (+4 duplicates)  
@@ -1083,6 +1083,7 @@ xserver-xorg-video-intel                                                      2:
 xserver-xorg-video-nouveau                                                    1:1.0.17-2                                 deb                         
 xserver-xorg-video-qxl                                                        0.1.5+git20200331-3                        deb                         
 xserver-xorg-video-radeon                                                     1:19.1.0-3                                 deb                         
+xsettingsd                                                                    1.0.2-1                                    deb                         
 xterm                                                                         379-1                                      deb                         
 xutils                                                                        1:7.7+23                                   deb                         
 xvfb                                                                          2:21.1.7-3+deb12u10                        deb                         
