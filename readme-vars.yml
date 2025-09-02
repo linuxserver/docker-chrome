@@ -114,5 +114,6 @@ init_diagram: |
   "chrome:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "02.09.25:", desc: "Revert graceful shutdown script to rely on the baseimage fix."}
   - {date: "29.08.25:", desc: "Attempt graceful shutdown of Chrome."}
   - {date: "12.06.25:", desc: "Initial release."}
