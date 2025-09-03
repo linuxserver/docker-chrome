@@ -432,5 +432,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **02.09.25:** - Revert graceful shutdown script to rely on the baseimage fix.
 * **29.08.25:** - Attempt graceful shutdown of Chrome.
 * **12.06.25:** - Initial release.
