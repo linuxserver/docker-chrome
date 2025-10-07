@@ -66,7 +66,7 @@ diffutils                                                                     1:
 dirmngr                                                                       2.4.7-21+b3                             deb                          
 dmsetup                                                                       2:1.02.205-2                            deb                          
 dnspython                                                                     2.8.0                                   python                       
-docker-buildx-plugin                                                          0.29.0-0~debian.13~trixie               deb                          
+docker-buildx-plugin                                                          0.29.1-1~debian.13~trixie               deb                          
 docker-ce                                                                     5:28.5.0-1~debian.13~trixie             deb                          
 docker-ce-cli                                                                 5:28.5.0-1~debian.13~trixie             deb                          
 docker-compose-plugin                                                         2.39.4-0~debian.13~trixie               deb                          
@@ -196,7 +196,7 @@ github.com/deckarep/golang-set/v2                                             v2
 github.com/dimchansky/utfbom                                                  v1.1.1                                  go-module                    
 github.com/distribution/reference                                             v0.6.0                                  go-module  (+4 duplicates)   
 github.com/docker/buildx                                                      v0.28.0                                 go-module                    
-github.com/docker/buildx                                                      v0.29.0                                 go-module                    
+github.com/docker/buildx                                                      v0.29.1                                 go-module                    
 github.com/docker/cli                                                         v28.4.0+incompatible                    go-module  (+1 duplicate)    
 github.com/docker/cli-docs-tool                                               v0.10.0                                 go-module  (+1 duplicate)    
 github.com/docker/cli/cmd/docker                                              UNKNOWN                                 go-module                    
@@ -484,7 +484,7 @@ golang.org/x/text                                                             v0
 golang.org/x/text                                                             v0.27.0                                 go-module  (+2 duplicates)   
 golang.org/x/time                                                             v0.11.0                                 go-module  (+2 duplicates)   
 golang.org/x/time                                                             v0.12.0                                 go-module                    
-google-chrome-stable                                                          141.0.7390.54-1                         deb                          
+google-chrome-stable                                                          141.0.7390.65-1                         deb                          
 google-crc32c                                                                 1.7.1                                   python                       
 google.golang.org/api                                                         v0.160.0                                go-module                    
 google.golang.org/genproto                                                    v0.0.0-20231211222908-989df2bf70f3      go-module  (+4 duplicates)   
