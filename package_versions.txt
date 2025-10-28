@@ -69,7 +69,7 @@ dnspython                                                                     2.
 docker-buildx-plugin                                                          0.29.1-1~debian.13~trixie               deb                         
 docker-ce                                                                     5:28.5.1-1~debian.13~trixie             deb                         
 docker-ce-cli                                                                 5:28.5.1-1~debian.13~trixie             deb                         
-docker-compose-plugin                                                         2.40.1-1~debian.13~trixie               deb                         
+docker-compose-plugin                                                         2.40.2-1~debian.13~trixie               deb                         
 dpkg                                                                          1.22.21                                 deb                         
 dunst                                                                         1.12.2-1                                deb                         
 evdev                                                                         1.9.2                                   python                      
@@ -200,7 +200,7 @@ github.com/docker/cli                                                         v2
 github.com/docker/cli                                                         v28.5.1+incompatible                    go-module                   
 github.com/docker/cli-docs-tool                                               v0.10.0                                 go-module  (+1 duplicate)   
 github.com/docker/cli/cmd/docker                                              UNKNOWN                                 go-module                   
-github.com/docker/compose/v2                                                  v0.0.0-20251017130737-be8c7e6c60c6      go-module                   
+github.com/docker/compose/v2                                                  v0.0.0-20251022173216-6007d4c7e7b7      go-module                   
 github.com/docker/distribution                                                v2.8.3+incompatible                     go-module  (+1 duplicate)   
 github.com/docker/docker                                                      v28.4.0+incompatible                    go-module                   
 github.com/docker/docker                                                      v28.5.1                                 go-module  (+1 duplicate)   
@@ -483,7 +483,7 @@ golang.org/x/text                                                             v0
 golang.org/x/text                                                             v0.27.0                                 go-module  (+2 duplicates)  
 golang.org/x/time                                                             v0.11.0                                 go-module  (+2 duplicates)  
 golang.org/x/time                                                             v0.12.0                                 go-module                   
-google-chrome-stable                                                          141.0.7390.122-1                        deb                         
+google-chrome-stable                                                          142.0.7444.59-1                         deb                         
 google-crc32c                                                                 1.7.1                                   python                      
 google.golang.org/api                                                         v0.160.0                                go-module                   
 google.golang.org/genproto                                                    v0.0.0-20231211222908-989df2bf70f3      go-module  (+4 duplicates)  
@@ -971,7 +971,7 @@ procps                                                                        2:
 prometheus-client                                                             0.23.1                                  python                      
 propcache                                                                     0.4.1                                   python                      
 psmisc                                                                        23.7-2                                  deb                         
-psutil                                                                        7.1.1                                   python                      
+psutil                                                                        7.1.2                                   python                      
 publicsuffix                                                                  20250328.1952-0.1                       deb                         
 pulseaudio                                                                    17.0+dfsg1-2+b1                         deb                         
 pulseaudio-utils                                                              17.0+dfsg1-2+b1                         deb                         
