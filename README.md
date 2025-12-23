@@ -569,6 +569,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **20.12.25:** - Add Wayland init logic.
 * **22.09.25:** - Rebase to Debian Trixie.
 * **02.09.25:** - Revert graceful shutdown script to rely on the baseimage fix.
 * **29.08.25:** - Attempt graceful shutdown of Chrome.

@@ -110,6 +110,7 @@ init_diagram: |
   "chrome:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "20.12.25:", desc: "Add Wayland init logic."}
   - {date: "22.09.25:", desc: "Rebase to Debian Trixie."}
   - {date: "02.09.25:", desc: "Revert graceful shutdown script to rely on the baseimage fix."}
   - {date: "29.08.25:", desc: "Attempt graceful shutdown of Chrome."}
