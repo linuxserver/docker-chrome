@@ -7,6 +7,13 @@ if pgrep chrome > /dev/null;then
   rm -f $HOME/.config/google-chrome/Singleton*
 fi
 
+# Wayland check
+if ls -l /dev/dri/* > /dev/null 2>&1; then
+  if pgrep labwc > /dev/null 2>&1; then
+    WAYLAND="--ozone-platform=wayland"
+  fi
+fi
+
 ${BIN} \
   --no-first-run \
   --no-sandbox \
@@ -15,4 +22,5 @@ ${BIN} \
   --start-maximized \
   --test-type \
   --user-data-dir \
+  ${WAYLAND} \
    "$@" > /dev/null 2>&1
