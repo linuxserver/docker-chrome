@@ -529,7 +529,7 @@ golang.org/x/term                                                             v0
 golang.org/x/text                                                             v0.38.0                                 go-module  (+1 duplicate)   
 golang.org/x/text                                                             v0.40.0                                 go-module  (+2 duplicates)  
 golang.org/x/time                                                             v0.15.0                                 go-module  (+3 duplicates)  
-google-chrome-stable                                                          151.0.7922.169-1                        deb                         
+google-chrome-stable                                                          151.0.7922.173-1                        deb                         
 google-crc32c                                                                 1.8.0                                   python                      
 google.golang.org/api                                                         v0.287.1                                go-module                   
 google.golang.org/genproto                                                    v0.0.0-20260526163538-3dc84a4a5aaa      go-module                   
